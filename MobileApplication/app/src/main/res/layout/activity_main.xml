@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/helloback2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Translater"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="32dp"
+        android:textColor="@android:color/white" />
+
+    <RadioGroup
+        android:id="@+id/conversionGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="24dp">
+
+        <RadioButton
+            android:id="@+id/radioKmToM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kilometers to Meters"
+            android:textColor="@android:color/white" />
+
+        <RadioButton
+            android:id="@+id/radioFToC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fahrenheit to Celsius"
+            android:textColor="@android:color/white" />
+
+        <RadioButton
+            android:id="@+id/radioGToKg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grams to Kilograms"
+            android:textColor="@android:color/white" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/inputValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter value"
+        android:inputType="numberDecimal"
+        android:padding="16dp"
+        android:background="@android:color/white"
+        android:layout_marginBottom="24dp"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/convertButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:padding="16dp"
+        android:layout_marginBottom="24dp"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:padding="16dp"
+        android:minHeight="48dp" />
+
+</LinearLayout>

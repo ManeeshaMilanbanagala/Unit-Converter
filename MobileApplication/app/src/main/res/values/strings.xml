@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Unit Converter</string>
+    <string name="km_to_m">Kilometers to Meters</string>
+    <string name="f_to_c">Fahrenheit to Celsius</string>
+    <string name="g_to_kg">Grams to Kilograms</string>
+</resources>
